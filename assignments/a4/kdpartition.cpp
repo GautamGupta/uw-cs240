@@ -5,6 +5,12 @@
 using namespace std;
 
 /**
+ * This is a bit wrong. Shouldn't sort the points at every step.
+ * Instead, sort once by x and once by y. Then do the
+ * subdivision process.
+ */
+
+/**
  * Split convention:
  * bool true  means 'x'
  *      false means 'y'
